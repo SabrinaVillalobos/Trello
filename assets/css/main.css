@@ -1,0 +1,19 @@
+body {
+	margin: 0 auto;
+	background-color: #0079BF;
+}
+.navbar {
+	background-color: #07486E;
+	height: 45px;
+	width: 100%;
+	height: 45px;
+}
+img {
+	height: 30px;
+	width: 80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+
+}
