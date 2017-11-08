@@ -3,7 +3,7 @@ body {
 	background-color: #0079BF;
 }
 .navbar {
-	background-color: #07486E;
+	background-color: #2B5873;
 	height: 40px;
 	width: 100%;
 	height: 45px;
@@ -28,9 +28,9 @@ img:hover {
 .secondnav{
 	height:45px;
 	width: 100%;
-	background-color: red; 
+	background-color: #0079BF;
 	font-family: Arial;
-	color: #fff;
+	color: #E4F0F6;
 
 
 }
@@ -38,30 +38,30 @@ img:hover {
 	margin-top: 6px;
 	margin-left: 6px;
 	top:24px;
-	background-color: red;
+	background-color: #0079BF;
 	border-radius: 3px;
 	border: none;
 	line-height: 5px;
     font-size: 18px;
     line-height: 30px;
     padding-left: 4px;
-    color:#fff;
+    color:#E4F0F6;
     outline:0;
     font-weight: bold;
     letter-spacing: -0.5px;
 }
 .navbtn:hover{
-	background-color: #9F0B0B;
+	background-color: #2B5873;
 }
-.icon-star {
+.icon-star-empty {
 	font-size: 13px;
 	padding: 6px;
 	font-weight: bold!important;
 }
 .star {
-	background-color: red;
+	background-color: #0079BF;
 	outline: 0;
-	color:#fff;
+	color:#E4F0F6;
 	font-weight: bold;
 	border: none;
 	border-radius: 3px;
@@ -70,29 +70,29 @@ img:hover {
 
 }
 .star:hover {
-	background-color:  #9F0B0B;
+	background-color:  #2B5873;
 }
 
 .pri {
-	background-color: red;
+	background-color: #0079BF;
 	outline: 0;
-	color:#fff;
+	color:#E4F0F6;
 	border: none;
 	border-radius: 3px;
 	height: 32px;
 	font-size: 14px;
 }
 .pri:hover {
-	background-color:  #9F0B0B;
+	background-color:  #2B5873;
 }
 .icon-briefcase{
 	font-weight: bold!important;
 	padding-right: 5px;
 }
 .menu {
-	background-color: red;
+	background-color: #0079BF;
 	outline: 0;
-	color:#fff;
+	color:#E4F0F6;
 	border: none;
 	border-radius: 3px;
 	height: 32px;
@@ -107,5 +107,86 @@ img:hover {
 	text-decoration: underline;
 }
 .menu:hover {
-	background-color: #9F0B0B;
+	background-color: #2B5873;
+}
+
+#addlist {
+	height:39px;
+	width: 270px;
+	padding-left: 6px;
+	background-color: #2B5873;
+	border: none;
+	margin-left:6px;
+	border-radius: 5px;
+	color:#E4F0F6;
+	outline:none;
+	text-align: left;
+
+}
+
+#addlist:hover {
+	background-color:#07486E;
+	
+}
+
+#firstform {
+	height: 107px;
+	width: 273px;
+	background-color:#E2E4E6;
+    bottom:20px;
+    float: left;
+}
+
+input#realaddlist:focus {
+    background-color: #2688C2;
+
+}
+
+#realaddlist {
+	height:35px;
+	width: 259px;
+	padding-left: 6px;
+	background-color: #2B5873;
+	border: none;
+	margin:3px;
+	border-radius: 5px;
+	color:#E4F0F6;
+	outline:none;
+	text-align: left;
+
+}
+
+form#firstform {
+	position: absolute;
+	bottom: 468px;
+	width: 272px;
+	height: 79px;
+	margin-left: 6px;
+}
+
+#savebtn {
+	background-color:#1C599E;
+	width: 87px;
+	height: 32px;
+	color:#fff;
+	border: none;
+	margin-left: 3px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.icon-x:before {
+  content: "\e900";
+  font-size: 20px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: #979494;
+}
+.icon-dots-three-horizontal:before {
+  content: "\e905";
+  padding-left: 126px;
+  font-size: 20px;
+  color: #979494;
+  font-weight: bold;
 }
