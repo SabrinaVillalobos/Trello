@@ -190,3 +190,25 @@ form#firstform {
   color: #979494;
   font-weight: bold;
 }
+
+.newd {
+height: 70px;
+width: 270px;
+background-color:#E2E4E6;
+position: absolute;
+left: 7px;
+top:90px;
+border-radius: 5px;
+}
+
+
+/*
+.newd1 {
+height: 70px;
+width: 270px;
+background-color:#E2E4E6;
+position: absolute;
+left: 7px;
+top:90px;
+border-radius: 5px;
+}*/
