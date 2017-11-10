@@ -24,25 +24,39 @@ function newDiv () {
       var contenedorLista = document.createElement("div");
       contenedorLista.classList.add("newd");
       var currentDiv = document.getElementById("newl"); 
-  document.body.insertBefore(contenedorLista,currentDiv); 
-    }
+  document.body.insertBefore(contenedorLista,currentDiv);
+
+  document.getElementById("newd").innerHTML =  document.getElementById("realaddlist").value;
+
+}
+/*
+document.getElementById("savebtn").addEventListener("click", listn);
+function listn() {
+  var listname = document.getElementById("realaddlist").value;
+document.getElementById("realaddlist").innerHTML = listname;
+var txtn = document.createTextNode(listname);
+   
+document.getElementById("newd").innerHTML =  document.createTextNode(listname);
+  }*/
 
 
   document.getElementById("savebtn").addEventListener("click", stopDefAction);
     function stopDefAction(evt) {
       evt.preventDefault();
-        document.getElementById("firstform").style.visibility="hidden";
 
 }
 
 
-/*
-document.getElementById("savebtn").addEventListener("submit", disFF);
-function disFF (){
-  document.getElementById("firstform").style.visibility="hidden";
-}*/
+ document.getElementById("savebtn").addEventListener("click", disFF);
+      function disFF (){
+      document.getElementById("firstform").style.display = "none";
+
+/*var listname = document.getElementById("realaddlist").value;
+document.getElementById("realaddlist").innerHTML = listname;
 
 
+    newd.insertBefore(listname,firstform);*/
+}
 
 
 
