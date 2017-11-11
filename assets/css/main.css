@@ -202,13 +202,16 @@ border-radius: 5px;
 }
 
 
-/*
-.newd1 {
-height: 70px;
-width: 270px;
-background-color:#E2E4E6;
-position: absolute;
-left: 7px;
-top:90px;
-border-radius: 5px;
-}*/
+.namel {
+	font-weight: bold;
+	height: 27px;
+	width: 261px;
+	position: absolute;
+	left:11px;
+	top:95px;
+	padding-left: 6px;
+	padding-top:3px;
+	font-size: 14px;
+	font-family: Arial;
+
+}

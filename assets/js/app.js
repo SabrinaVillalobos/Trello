@@ -25,19 +25,9 @@ function newDiv () {
       contenedorLista.classList.add("newd");
       var currentDiv = document.getElementById("newl"); 
   document.body.insertBefore(contenedorLista,currentDiv);
-
-  document.getElementById("newd").innerHTML =  document.getElementById("realaddlist").value;
+  var listname = document.getElementById("realaddlist").value;
 
 }
-/*
-document.getElementById("savebtn").addEventListener("click", listn);
-function listn() {
-  var listname = document.getElementById("realaddlist").value;
-document.getElementById("realaddlist").innerHTML = listname;
-var txtn = document.createTextNode(listname);
-   
-document.getElementById("newd").innerHTML =  document.createTextNode(listname);
-  }*/
 
 
   document.getElementById("savebtn").addEventListener("click", stopDefAction);
@@ -51,13 +41,28 @@ document.getElementById("newd").innerHTML =  document.createTextNode(listname);
       function disFF (){
       document.getElementById("firstform").style.display = "none";
 
-/*var listname = document.getElementById("realaddlist").value;
-document.getElementById("realaddlist").innerHTML = listname;
+}
+document.getElementById("savebtn").addEventListener("click", namel);
+function namel (){
+  var textcont = document.createElement("div");
+     textcont.classList.add("listname");
+ 
 
-
-    newd.insertBefore(listname,firstform);*/
 }
 
+
+document.getElementById("savebtn").addEventListener("click", linen);
+function linen () {
+    
+var cdiv = document.getElementById("newl"); 
+  
+var containerNameList = document.createElement("div");
+containerNameList.classList.add("namel");
+containerNameList.innerHTML = document.getElementById("realaddlist").value;
+
+document.body.appendChild(containerNameList);
+
+}
 
 
 
