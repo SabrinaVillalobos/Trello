@@ -213,5 +213,12 @@ border-radius: 5px;
 	padding-top:3px;
 	font-size: 14px;
 	font-family: Arial;
+}
+
+.txtadd{
+	cursor: pointer;
+	font-weight: normal;
+	color: #727474;
+	margin-top:20px;
 
 }

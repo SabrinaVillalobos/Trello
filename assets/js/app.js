@@ -58,11 +58,43 @@ var cdiv = document.getElementById("newl");
   
 var containerNameList = document.createElement("div");
 containerNameList.classList.add("namel");
+containerNameList.setAttribute("id", "namell");
 containerNameList.innerHTML = document.getElementById("realaddlist").value;
 
 document.body.appendChild(containerNameList);
 
+  
+/*var textAreaListN = document.createElement("textarea");
+textAreaListN.classList.add("ltxt");
+
+document.body.appendChild(textAreaListN);*/
+
+
+var addCard = document.createElement("p");
+addCard.classList.add("txtadd");
+var t = document.createTextNode("Añadir una tarjeta...")
+addCard.appendChild(t);
+document.getElementById("namell").appendChild(addCard)
+
+/*
+addCard.classList.add("addAcard");
+
+
+var t = document.createTextNode("Añadir una tarjeta...");
+ addCard.appendChild(t);*/
+
+
 }
 
 
+/*
+document.getElementById("savebtn").addEventListener("click", lnText);
+function lnText () {
+    
+var lText = document.getElementById("newl"); 
+  
+var textAreaListN = document.createElement("textarea");
+textAreaListN.classList.add("ltxt");
 
+document.body.appendChild(textAreaListN);
+}*/
