@@ -23,6 +23,7 @@ document.getElementById("savebtn").addEventListener("click", newDiv);
 function newDiv () {
       var contenedorLista = document.createElement("div");
       contenedorLista.classList.add("newd");
+      contenedorLista.setAttribute("id", "newdid");
       var currentDiv = document.getElementById("newl"); 
   document.body.insertBefore(contenedorLista,currentDiv);
   var listname = document.getElementById("realaddlist").value;
@@ -63,38 +64,43 @@ containerNameList.innerHTML = document.getElementById("realaddlist").value;
 
 document.body.appendChild(containerNameList);
 
-  
-/*var textAreaListN = document.createElement("textarea");
-textAreaListN.classList.add("ltxt");
-
-document.body.appendChild(textAreaListN);*/
-
 
 var addCard = document.createElement("p");
-addCard.classList.add("txtadd");
-var t = document.createTextNode("Añadir una tarjeta...")
-addCard.appendChild(t);
-document.getElementById("namell").appendChild(addCard)
-
-/*
-addCard.classList.add("addAcard");
-
-
+addCard.setAttribute("id", "txtadd");
 var t = document.createTextNode("Añadir una tarjeta...");
- addCard.appendChild(t);*/
+addCard.appendChild(t);
+document.getElementById("namell").appendChild(addCard);
 
+document.getElementById("txtadd").addEventListener("click", tarea);
 
 }
 
+function tarea () {
 
-/*
-document.getElementById("savebtn").addEventListener("click", lnText);
-function lnText () {
-    
-var lText = document.getElementById("newl"); 
-  
+ var contenedorLista2 = document.createElement("div");
+      contenedorLista2.classList.add("newd2");
+      contenedorLista2.setAttribute("id", "newdid2");
+      var currentDiv = document.getElementById("newl"); 
+  document.body.insertBefore(contenedorLista2,currentDiv);
+
+ document.getElementById("newdid").style.visibility="hidden";
+  document.getElementById("txtadd").style.visibility="hidden";
+
+
 var textAreaListN = document.createElement("textarea");
 textAreaListN.classList.add("ltxt");
+ document.body.insertBefore(contenedorLista2,currentDiv);
 
-document.body.appendChild(textAreaListN);
-}*/
+
+   var buttonAdd = document.createElement("button");
+      buttonAdd.classList.add("btnAdd");
+      buttonAdd.setAttribute("id", "btnAdd")
+      var btntxt= document.createTextNode("Añadir");
+ buttonAdd.appendChild(btntxt);
+       var currentDv = document.getElementById("newl"); 
+   document.getElementById("namell").appendChild(buttonAdd);
+
+   document.getElementById("namell").appendChild(textAreaListN);
+}
+
+

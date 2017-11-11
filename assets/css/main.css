@@ -137,10 +137,6 @@ img:hover {
     float: left;
 }
 
-input#realaddlist:focus {
-    background-color: #2688C2;
-
-}
 
 #realaddlist {
 	height:35px;
@@ -174,6 +170,11 @@ form#firstform {
 	border-radius: 5px;
 	font-size: 15px;
 	font-weight: bold;
+	cursor: pointer;
+}
+
+#savebtn:hover {
+	background-color: #184981;
 }
 
 .icon-x:before {
@@ -215,10 +216,54 @@ border-radius: 5px;
 	font-family: Arial;
 }
 
-.txtadd{
+.namel:hover {
+	cursor: pointer;
+}
+
+#txtadd{
 	cursor: pointer;
 	font-weight: normal;
 	color: #727474;
 	margin-top:20px;
 
 }
+
+#txtadd:hover {
+	text-decoration: underline;
+}
+
+.newd2 {
+	background-color: #E2E4E6;
+	width: 270px;
+	height:148px;
+	position: absolute;
+left: 7px;
+top:90px;
+border-radius: 5px;
+z-index: -1;
+}
+
+.ltxt {
+	resize: none;
+	width: 245px;
+	height: 68px;
+	position: relative;
+	bottom: 77px;
+	border-radius: 5px;
+}
+
+.btnAdd {
+	background-color: #1C599E;
+	width: 77px;
+	height: 33px;
+	z-index: 1;
+	position: relative;
+	top:37px;
+	border: none;
+	border-radius: 5px;
+	color:#fff;
+	cursor: pointer;
+}
+
+.btnAdd:hover {
+	background-color: #184981;
