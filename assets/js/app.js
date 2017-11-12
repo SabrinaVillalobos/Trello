@@ -89,6 +89,7 @@ function tarea () {
 
 var textAreaListN = document.createElement("textarea");
 textAreaListN.classList.add("ltxt");
+ textAreaListN.setAttribute("id", "focid");
  document.body.insertBefore(contenedorLista2,currentDiv);
 
 
@@ -101,6 +102,9 @@ textAreaListN.classList.add("ltxt");
    document.getElementById("namell").appendChild(buttonAdd);
 
    document.getElementById("namell").appendChild(textAreaListN);
+
+    document.getElementById("focid").addEventListener("focus", focF);
 }
-
-
+function focF() {
+    document.getElementById("focid").style.backgroundColor = "#BFBFBF"
+}

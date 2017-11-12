@@ -214,6 +214,7 @@ border-radius: 5px;
 	padding-top:3px;
 	font-size: 14px;
 	font-family: Arial;
+	word-break: break-all;
 }
 
 .namel:hover {
