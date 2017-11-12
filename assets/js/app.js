@@ -169,6 +169,6 @@ function ListA (){ //función que crea otro contenedor con txt area y botón
         
 }
 
-function focF2() {
+function focF2() {//focus al txt area
     document.getElementById("focid2").style.backgroundColor = "#BFBFBF"
 }
