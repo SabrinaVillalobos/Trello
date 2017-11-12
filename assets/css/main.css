@@ -285,3 +285,12 @@ form#firstform {
 .btnAdd2:hover {
     background-color: #184981;
 }
+
+#newTxt2 {
+	width: 254px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 5px;
+    left: 10px;
+
+}

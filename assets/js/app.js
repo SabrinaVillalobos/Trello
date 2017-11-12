@@ -151,4 +151,18 @@ function newCard() {
     buttonAdd2.appendChild(btntxt2);
     document.getElementById("contN").appendChild(buttonAdd2);
 
+
+    document.getElementById("btnAdd2").addEventListener("click", ListA);
+
+
 }
+
+function ListA (){
+ var newTxt2 = document.createElement("div");
+    newTxt2.setAttribute("id", "newTxt2");
+    var newTxtCont2 = document.getElementById("newl");
+    document.body.insertBefore(newTxt2, newTxtCont2);
+    newTxt2.innerHTML = document.getElementById("focid2").value;
+        document.getElementById("contN").appendChild(newTxt2);
+}
+
