@@ -164,5 +164,7 @@ function ListA (){
     document.body.insertBefore(newTxt2, newTxtCont2);
     newTxt2.innerHTML = document.getElementById("focid2").value;
         document.getElementById("contN").appendChild(newTxt2);
+        document.getElementById("focid2").value = "";
+         document.body.insertBefore(newTxt2, focid2);
 }
 

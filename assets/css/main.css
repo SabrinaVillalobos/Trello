@@ -291,6 +291,9 @@ form#firstform {
     height: 34px;
     background-color: #fff;
     border-radius: 5px;
-    left: 10px;
+    left: -10px;
+    position: relative;
+    margin-bottom:8px;
+    top: -31px;
 
 }
