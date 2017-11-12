@@ -1,270 +1,287 @@
 body {
-	margin: 0 auto;
-	background-color: #0079BF;
+    margin: 0 auto;
+    background-color: #0079BF;
 }
 .navbar {
-	background-color: #2B5873;
-	height: 40px;
-	width: 100%;
-	height: 45px;
+    background-color: #2B5873;
+    height: 40px;
+    width: 100%;
+    height: 45px;
 }
 img {
-	height: 30px;
-	width: 80px;
-	display: block;
+    height: 30px;
+    width: 80px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6px;
-    -webkit-filter: opacity(30%); /* Safari */
+    -webkit-filter: opacity(30%);
+    /* Safari */
+    
     filter: opacity(30%);
-
 }
-
 img:hover {
-	-webkit-filter: opacity(70%); /* Safari */
+    -webkit-filter: opacity(70%);
+    /* Safari */
+    
     filter: opacity(70%);
 }
-
-.secondnav{
-	height:45px;
-	width: 100%;
-	background-color: #0079BF;
-	font-family: Arial;
-	color: #E4F0F6;
-
-
+.secondnav {
+    height: 45px;
+    width: 100%;
+    background-color: #0079BF;
+    font-family: Arial;
+    color: #E4F0F6;
 }
-.navbtn{
-	margin-top: 6px;
-	margin-left: 6px;
-	top:24px;
-	background-color: #0079BF;
-	border-radius: 3px;
-	border: none;
-	line-height: 5px;
+.navbtn {
+    margin-top: 6px;
+    margin-left: 6px;
+    top: 24px;
+    background-color: #0079BF;
+    border-radius: 3px;
+    border: none;
+    line-height: 5px;
     font-size: 18px;
     line-height: 30px;
     padding-left: 4px;
-    color:#E4F0F6;
-    outline:0;
+    color: #E4F0F6;
+    outline: 0;
     font-weight: bold;
     letter-spacing: -0.5px;
 }
-.navbtn:hover{
-	background-color: #2B5873;
+.navbtn:hover {
+    background-color: #2B5873;
 }
 .icon-star-empty {
-	font-size: 13px;
-	padding: 6px;
-	font-weight: bold!important;
+    font-size: 13px;
+    padding: 6px;
+    font-weight: bold!important;
 }
 .star {
-	background-color: #0079BF;
-	outline: 0;
-	color:#E4F0F6;
-	font-weight: bold;
-	border: none;
-	border-radius: 3px;
-	height: 32px;
-
-
+    background-color: #0079BF;
+    outline: 0;
+    color: #E4F0F6;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    height: 32px;
 }
 .star:hover {
-	background-color:  #2B5873;
+    background-color: #2B5873;
 }
-
 .pri {
-	background-color: #0079BF;
-	outline: 0;
-	color:#E4F0F6;
-	border: none;
-	border-radius: 3px;
-	height: 32px;
-	font-size: 14px;
+    background-color: #0079BF;
+    outline: 0;
+    color: #E4F0F6;
+    border: none;
+    border-radius: 3px;
+    height: 32px;
+    font-size: 14px;
 }
 .pri:hover {
-	background-color:  #2B5873;
+    background-color: #2B5873;
 }
-.icon-briefcase{
-	font-weight: bold!important;
-	padding-right: 5px;
+.icon-briefcase {
+    font-weight: bold!important;
+    padding-right: 5px;
 }
 .menu {
-	background-color: #0079BF;
-	outline: 0;
-	color:#E4F0F6;
-	border: none;
-	border-radius: 3px;
-	height: 32px;
-	font-size: 14px;
-	margin-top: 10px;
-	margin-right: 10px;
-	float:right;
-	margin-top: 6px;
+    background-color: #0079BF;
+    outline: 0;
+    color: #E4F0F6;
+    border: none;
+    border-radius: 3px;
+    height: 32px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 6px;
 }
-
-.menutext{
-	text-decoration: underline;
+.menutext {
+    text-decoration: underline;
 }
 .menu:hover {
-	background-color: #2B5873;
+    background-color: #2B5873;
 }
-
 #addlist {
-	height:39px;
-	width: 270px;
-	padding-left: 6px;
-	background-color: #2B5873;
-	border: none;
-	margin-left:6px;
-	border-radius: 5px;
-	color:#E4F0F6;
-	outline:none;
-	text-align: left;
-
+    height: 39px;
+    width: 270px;
+    padding-left: 6px;
+    background-color: #2B5873;
+    border: none;
+    margin-left: 6px;
+    border-radius: 5px;
+    color: #E4F0F6;
+    outline: none;
+    text-align: left;
 }
-
 #addlist:hover {
-	background-color:#07486E;
-	
+    background-color: #07486E;
 }
-
 #firstform {
-	height: 107px;
-	width: 273px;
-	background-color:#E2E4E6;
-    bottom:20px;
+    height: 107px;
+    width: 273px;
+    background-color: #E2E4E6;
+    bottom: 20px;
     float: left;
 }
-
-
 #realaddlist {
-	height:35px;
-	width: 259px;
-	padding-left: 6px;
-	background-color: #2B5873;
-	border: none;
-	margin:3px;
-	border-radius: 5px;
-	color:#E4F0F6;
-	outline:none;
-	text-align: left;
-
+    height: 35px;
+    width: 259px;
+    padding-left: 6px;
+    background-color: #2B5873;
+    border: none;
+    margin: 3px;
+    border-radius: 5px;
+    color: #E4F0F6;
+    outline: none;
+    text-align: left;
 }
-
 form#firstform {
-	position: absolute;
-	bottom: 468px;
-	width: 272px;
-	height: 79px;
-	margin-left: 6px;
+    position: absolute;
+    bottom: 468px;
+    width: 272px;
+    height: 79px;
+    margin-left: 6px;
 }
-
 #savebtn {
-	background-color:#1C599E;
-	width: 87px;
-	height: 32px;
-	color:#fff;
-	border: none;
-	margin-left: 3px;
-	border-radius: 5px;
-	font-size: 15px;
-	font-weight: bold;
-	cursor: pointer;
+    background-color: #1C599E;
+    width: 87px;
+    height: 32px;
+    color: #fff;
+    border: none;
+    margin-left: 3px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
 }
-
 #savebtn:hover {
-	background-color: #184981;
+    background-color: #184981;
 }
-
 .icon-x:before {
-  content: "\e900";
-  font-size: 20px;
-  padding-left: 5px;
-  font-weight: bold;
-  color: #979494;
+    content: "\e900";
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    color: #979494;
 }
 .icon-dots-three-horizontal:before {
-  content: "\e905";
-  padding-left: 126px;
-  font-size: 20px;
-  color: #979494;
-  font-weight: bold;
+    content: "\e905";
+    padding-left: 126px;
+    font-size: 20px;
+    color: #979494;
+    font-weight: bold;
 }
-
 .newd {
-height: 70px;
-width: 270px;
-background-color:#E2E4E6;
-position: absolute;
-left: 7px;
-top:90px;
-border-radius: 5px;
+    height: 70px;
+    width: 270px;
+    background-color: #E2E4E6;
+    position: absolute;
+    left: 7px;
+    top: 90px;
+    border-radius: 5px;
 }
-
-
 .namel {
-	font-weight: bold;
-	height: 27px;
-	width: 261px;
-	position: absolute;
-	left:11px;
-	top:95px;
-	padding-left: 6px;
-	padding-top:3px;
-	font-size: 14px;
-	font-family: Arial;
-	word-break: break-all;
+    font-weight: bold;
+    height: 27px;
+    width: 261px;
+    position: absolute;
+    left: 11px;
+    top: 95px;
+    padding-left: 6px;
+    padding-top: 3px;
+    font-size: 14px;
+    font-family: Arial;
+    word-break: break-all;
 }
-
 .namel:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
-
-#txtadd{
-	cursor: pointer;
-	font-weight: normal;
-	color: #727474;
-	margin-top:20px;
-
+#txtadd {
+    cursor: pointer;
+    font-weight: normal;
+    color: #727474;
+    margin-top: 20px;
 }
-
 #txtadd:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
-
 .newd2 {
-	background-color: #E2E4E6;
-	width: 270px;
-	height:148px;
-	position: absolute;
-left: 7px;
-top:90px;
-border-radius: 5px;
-z-index: -1;
+    background-color: #E2E4E6;
+    width: 270px;
+    height: 148px;
+    position: absolute;
+    left: 7px;
+    top: 90px;
+    border-radius: 5px;
+    z-index: -1;
 }
-
 .ltxt {
-	resize: none;
-	width: 245px;
-	height: 68px;
-	position: relative;
-	bottom: 77px;
-	border-radius: 5px;
+    resize: none;
+    width: 245px;
+    height: 68px;
+    position: relative;
+    bottom: 77px;
+    border-radius: 5px;
 }
-
 .btnAdd {
-	background-color: #1C599E;
-	width: 77px;
-	height: 33px;
-	z-index: 1;
-	position: relative;
-	top:37px;
-	border: none;
-	border-radius: 5px;
-	color:#fff;
-	cursor: pointer;
+    background-color: #1C599E;
+    width: 77px;
+    height: 33px;
+    z-index: 1;
+    position: relative;
+    top: 37px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
 }
-
 .btnAdd:hover {
-	background-color: #184981;
+    background-color: #184981;
+}
+#newTxt {
+    width: 254px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+}
+#contN {
+    background-color: #E2E4E6;
+    width: 245px;
+    height: 198px;
+    position: absolute;
+    top: -39px;
+    border-radius: 5px;
+    z-index: -1;
+    left: -3px;
+    padding-left: 14px;
+    display: table;
+}
+.ltxt2 {
+    resize: none;
+    width: 245px;
+    height: 68px;
+    position: relative;
+    border-radius: 5px;
+    top: 80px;
+    left: -7px;
+}
+.btnAdd2 {
+    background-color: #1C599E;
+    width: 77px;
+    height: 33px;
+    z-index: 1;
+    position: relative;
+    top: 80px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.btnAdd2:hover {
+    background-color: #184981;
+}
